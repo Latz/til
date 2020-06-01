@@ -5,4 +5,4 @@ date: 2020-06-01
 tags: ["post"]
 ---
 
-Buy the latest and greatest cryptocurrency that no-one has heard of.
+... how to deploy this site with github and netlify. [Today I learned...](https://vibrant-carson-c8e4a4.netlify.app/)
