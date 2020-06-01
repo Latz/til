@@ -1,0 +1,33 @@
+body {
+  font-family: Lucida Sans Typewriter;
+  background-color: whitesmoke;
+  font-size: 18px;
+}
+
+h1 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  min-height: 600px;
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+time {
+  text-decoration: underline darkgrey;
+  color: darkgrey;
+}
+
+p {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 0px;
+}

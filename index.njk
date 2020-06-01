@@ -1,0 +1,17 @@
+---
+layout: base-layout.njk
+pagination:
+  data: collections.post
+  size: 100
+  reverse: true
+  alias: posts
+---
+<content>
+{% for post in posts  %}
+  <article>
+<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+  {{ post.templateContent | safe }}
+  </article>
+{% endfor %}
+</content>
+ 
