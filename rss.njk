@@ -1,0 +1,38 @@
+---
+permalink: feed
+pagination:
+  data: collections.post
+  size: 99999
+  reverse: true
+  alias: posts
+metadata:
+  title: Today I learned...
+  url: https://todayilearned.website
+  feedUrl: https://todayilearned.website/feed
+  author: 
+    name: Latz
+    email: latz@todayilearned.website
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ posts | rssLastUpdatedDate }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+
+  {%- for post in posts %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <entry>
+      <title>Today I learned...</title>
+      <link href="{{ absolutePostUrl }}"/>
+      <updated>{{ post.date | rssDate }}</updated>
+      <id>{{ absolutePostUrl }}</id>
+      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl)}}</content>
+    </entry>
+  {%- endfor %}
+</feed>
