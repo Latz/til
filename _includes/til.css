@@ -8,6 +8,7 @@ h1 {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-size: %;
 }
 
 main {
@@ -23,6 +24,7 @@ main {
 time {
   text-decoration: underline darkgrey;
   color: darkgrey;
+  font-size: 75%;
 }
 
 p {
