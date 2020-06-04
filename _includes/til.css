@@ -48,3 +48,8 @@ menu a {
   color: darkgrey;
   text-decoration: none;
 }
+
+a:hover {
+  color: darkgrey;
+  text-decoration: overline underline;
+}

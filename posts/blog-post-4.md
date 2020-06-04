@@ -6,4 +6,4 @@ tags: ["post"]
 ---
 
 ... that "Pedelec" is an acronym for [<b>Ped</b>al <b>Ele</b>ctric
-<b>C</b>ycle](https://en.wikipedia.org/wiki/Pedelec)
+<b>C</b>ycle](https://en.wikipedia.org/wiki/Pedelec).
