@@ -5,4 +5,4 @@ tags: ["post"]
 ---
 ... that people start looking for
 [alternatives](https://dev.to/areknawo/top-7-vs-code-alternatives-3c0n)
-as as soon as something becomes too trendy.
+as soon as something becomes too trendy.
