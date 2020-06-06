@@ -1,0 +1,22 @@
+
+*** These modified files were found in JOE when it aborted on Sat Jun  6 22:26:35 2020
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+blog-post-1.md
+blog-post-1.md
+blog-post-5.md
+blog-post-5.md
+blog-post-5.md
+posts/blog-post-5.md
+.gitignore
+posts/blog-post-5.md
+blog-post-6.md
+posts/blog-post-6.md
+blog-post-7.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
