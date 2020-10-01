@@ -7,11 +7,10 @@ pagination:
   alias: posts
 ---
 <content>
-{% for post in posts  %}
-  <article>
-<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-  {{ post.templateContent | safe }}
-  </article>
-{% endfor %}
+  {% for post in posts %}
+    <article>
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+      {{ post.templateContent | safe }}
+    </article>
+  {% endfor %}
 </content>
- 
