@@ -38,6 +38,10 @@ p {
   margin-right: 0px;
 }
 
+code {
+  background-color: grey;
+}
+
 menu {
   width: 800px;
   margin-left: auto;
