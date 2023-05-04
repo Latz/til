@@ -6,7 +6,8 @@ tags: ["post"]
 
 ... that I can add a catch/finally block to an await statement.
 
-```await(<Promise>)
+```
+await(<Promise>)
     .catch({})
     .finally({});
 ```
