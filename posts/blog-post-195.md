@@ -1,6 +1,6 @@
 ---
 layout: base-layout.njk
-date: 2023-10-016
+date: 2023-10-16
 tags: ["post"]
 ---
 
