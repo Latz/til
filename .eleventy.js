@@ -19,4 +19,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(pluginRss);
+
+  // feed is served at /feed (no extension) on purpose
+  eleventyConfig.configureErrorReporting({ allowMissingExtensions: true });
 };
